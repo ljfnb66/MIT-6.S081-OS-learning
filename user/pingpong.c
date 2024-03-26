@@ -9,7 +9,7 @@ int main(char argc, char *argv[])
     pipe(pipes1);
     pipe(pipes2);
 
-    int ret = fork();
+    int ret = fork();//
 
     // parent send in pipes1[1], child receives in pipes1[0]
     // child send in pipes2[1], parent receives in pipes2[0]
